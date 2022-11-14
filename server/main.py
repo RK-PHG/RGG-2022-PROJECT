@@ -41,3 +41,8 @@ def search():
 def getMedicines():
     pass
 
+#处理输入框
+@app.route("/preProcess")
+def preProcess():
+    pass
+
