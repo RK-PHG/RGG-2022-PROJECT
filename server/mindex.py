@@ -1,4 +1,4 @@
-# 该文件实现索引的构建，序列化与反序列化
+ # 该文件实现索引的构建，序列化与反序列化
 import db_manager
 import pickle
 
@@ -226,7 +226,9 @@ def indexDeserialize():
 # params:
 # return: 包含了所有字段索引结构的字典类型
   attrIndex = db_manager.getIndex()
-  attrs = { "source":{},
+  attrs = {     
+                
+                "source":{},
                 "natural": {},
                 "process":{},
                 "shape": {},
@@ -248,3 +250,4 @@ def indexDeserialize():
   attrs["attention"] = pickle.loads(attrIndex["attention"])
 
   return attrs
+ 
