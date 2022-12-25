@@ -1,0 +1,64 @@
+.home_root{
+    box-sizing: border-box;
+}
+.search_area{
+    display: inline-block;
+    text-align: center;
+    width:100%;
+}
+.search_input{
+    display:inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0 20px 0;
+}
+.tag_area{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding:10px;
+}
+.tag{
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding:7px 10px;
+}
+.main_divider{
+    margin-top:3px;
+}
+.page_left{
+    width: 20%;
+    margin: 10px 5px 10px 20px ;
+    background-color: white!important;
+    border-radius: 2px;
+    /* border-color: rgba(0,0,0,0.3); */
+    /* border-style: solid; */
+    min-height: 700px;
+}
+.page_right{
+   width: 20%;   
+   margin: 10px 20px 10px 5px;
+   background-color: white !important;
+   border-radius: 2px;
+   /* border-color: rgba(0,0,0,0.3); */
+   /* border-style: solid; */
+   text-align: center;
+   min-height: 700px;
+   /* overflow-y: scroll;  */
+}
+.scroll_slide{
+    width: 60%;
+}
+#main{
+    background: url("../../imgbk3.webp");
+    transition: 3s;
+}
+.main_context_area{
+    margin: 0px 50px 10px 50px;
+}
+.home_page_right{
+   box-shadow: 2px 2px 2px #aaa ;
+}
+.home_page_left{
+   box-shadow: 2px 2px 2px #aaa ;
+}

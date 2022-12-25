@@ -1,0 +1,80 @@
+.singlecard{
+    overflow: hidden;
+}
+
+.under_right_single{
+    width: 100%;
+    min-width: 728px;
+}
+
+.main_info_single{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding-left: 3%;
+    overflow: hidden;
+    height: max-content;
+    padding-bottom: 1%;
+}
+
+.specific_single{
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 10px;
+    clear: both;
+} 
+
+.under_left_single{
+    width: 28%;
+    float: left;
+}
+
+.evaluate_single{
+    margin-top: 20px;
+    background-color: #ffffff;
+    height: 127px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.evaluate_title{
+    overflow: hidden;
+    height: 37px;
+    text-align:center;
+}
+
+.evaluate_title_text{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.evaluate_icon{
+    margin-top: 14px;
+    text-align: center;
+}
+
+
+.info_left{
+    float: left;
+    overflow: hidden;
+    width: 40%;
+    margin-left: 1%;
+}
+
+.info_right{
+    float: left;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.main_info_down{
+    margin-left: 8%;
+}
+
+.clear{
+    clear: both;
+}

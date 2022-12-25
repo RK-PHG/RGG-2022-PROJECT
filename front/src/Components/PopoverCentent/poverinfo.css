@@ -1,0 +1,10 @@
+.popover_info_t{
+    height: 70px;
+    width: 300px;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    vertical-align: middle;
+    font-size: 10px;
+    padding: 10px;
+    overflow: hidden;
+}

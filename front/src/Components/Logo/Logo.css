@@ -1,0 +1,26 @@
+.Logo{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 30px; 
+   padding:5px 10px 5px 10px;
+   margin: 2px 0 2px 0;
+   display: inline-block;
+   border-radius: 5px;
+}
+.Logo:hover{
+   background-color: rgba(0, 0, 0, 0.2);
+   cursor: pointer;
+}
+
+.Logo::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.icon_{
+    font-size: 32px;
+    color: cadetblue;
+}
+.title_logo{
+    font-size: 22px;
+    color:black
+}
